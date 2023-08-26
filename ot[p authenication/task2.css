@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    height:100vh;
+    background-size:cover;
+}
+.google{
+    background-color: brown;
+}
+.facebook{
+    background-color: blue;
+}
+.github{
+    background-color: bisque;
+}
+otp{
+    background-color: chartreuse;
+}
+.heading{
+    color:azure;
+    font-family:"Roboto";
+    font-size:24px;
+    font-width:600;
+    text-align:center;
+}

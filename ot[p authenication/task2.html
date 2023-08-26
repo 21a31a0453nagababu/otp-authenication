@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="task2.css">
+    <!-- Include Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+</head>
+<body>
+    <h1 class="heading">Login</h1>
+    <button onclick="signInWithGoogle()" class="google">Sign in with Google</button>
+    <button onclick="signInWithFacebook()" class="facebook">Sign in with Facebook</button>
+    <button onclick="signInWithGitHub()" class="github">Sign in with GitHub</button>
+    <div>
+        <input type="text" id="phoneNumber" placeholder="Phone number">
+        <button onclick="sendOTP()" class="otp">Send OTP</button>
+    </div>
+    <div>
+        <input type="text" id="verificationCode" placeholder="Verification code">
+        <button onclick="signInWithOTP()">Verify OTP</button>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
